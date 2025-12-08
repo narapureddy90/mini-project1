@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('🚀 Express backend is running!');
+  res.send('Hello from React + Express Mini App!');
 });
 
 const PORT = process.env.PORT || 5000;
